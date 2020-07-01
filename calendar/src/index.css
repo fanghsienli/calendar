@@ -1,0 +1,235 @@
+﻿body {
+    color: #484848;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+* {
+    min-width: 0;
+    min-height: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.profile-section {
+    margin-bottom: 20px;
+}
+
+    .profile-section.with-divider {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #fbfbfb;
+        width: 100%;
+    }
+
+.section-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+#timeslots {
+    min-width: 280px;
+}
+.section-body {
+    min-height: 400px;
+    position: relative;
+}
+.schedule {
+    min-height: 652px;
+}
+.schedule-control-box {
+    overflow: hidden;
+}
+
+    .schedule-control-box .buttion-group {
+        width: 90px;
+        display: inline-block;
+    }
+
+
+
+.el-button-group {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+    .el-button-group:after, .el-button-group:before {
+        display: table;
+        content: "";
+    }
+
+    .el-button-group > .el-button:not(:last-child) {
+        margin-right: -1px;
+    }
+
+    .el-button-group > .el-button:first-child {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .el-button-group > .el-button.is-disabled {
+        z-index: 1;
+    }
+
+.el-button.is-disabled.is-plain {
+    background-color: #fff;
+    border-color: #ebeef5;
+    color: #c0c4cc;
+}
+
+.el-button.is-plain:not(.is-disabled):hover {
+    color: #02cab9;
+    border-color: rgba(2,202,185,.95);
+}
+
+.el-button.active {
+    color: #02cab9;
+    border-color: rgba(2,202,185,.95);
+}
+ 
+.el-button-group > .el-button {
+    float: left;
+    position: relative;
+}
+
+.el-button.is-disabled, .el-button.is-disabled:focus, .el-button.is-disabled:hover {
+    cursor: not-allowed;
+    background-image: none;
+}
+
+.el-button--mini {
+    padding: 7px 0;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.el-button {
+    width: 44px;
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    background: #fff;
+    border: 1px solid #dcdfe6;
+    -webkit-appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    transition: .1s;
+    font-weight: 500;
+}
+
+.el-button-group > .el-button:last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.el-button-group > .el-button + .el-button {
+    margin-left: 0;
+}
+
+.schedule-control-box .label-box {
+    padding-left: 15px;
+    display: inline-block;
+    width: 150px;
+}
+
+.el-icon-arrow-left:before {
+    content: "\008B";
+}
+
+.el-icon-arrow-right:before {
+    content: "\009B";
+}
+
+[class*=" el-icon-"], [class^=el-icon-] {
+    font-size: 20px;
+    margin-top: -6px;
+    font-family: element-icons !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: baseline;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+}
+
+.schedule-control-box .time-zone-description {
+    display: inline-block;
+    float: right;
+    text-align: right;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.at-column-box {
+    padding: 15px 0;
+    display: flex;
+}
+
+.root {
+    -webkit-box-flex: 1;
+    flex: 1;
+    padding: 0 5px;
+}
+
+.column-container {
+   
+    border-top: 4px solid #d2d2d2;
+}
+
+    .column-container .title-box {
+        color: #d2d2d2;
+    }
+
+.title-box {
+    min-width: 30px;
+    padding: 10px 0;
+}
+.at-text-center {
+    text-align: center;
+}
+
+.column-container.active, .column-container.today {
+    border-top: 4px solid #02cab9;
+}
+
+    .column-container.active .title-box, .column-container.today .title-box {
+        color: #484848;
+    }
+ 
+.time-list {
+   
+    display: contents;
+}
+
+.time {
+    padding: 3px 0;
+    border: 1px solid transparent;
+    color: #b6b6b6;
+}
+
+.is-size-7 {
+    font-size: .75rem !important;
+}
+
+.time.available {
+    color: #02cab9;
+    font-weight: 700;
+}
+
+.el-icon-loading {
+    -webkit-animation: rotating 2s linear infinite;
+    animation: rotating 2s linear infinite;
+}
+
+.loading {
+    padding-top:300px;
+    text-align: center;
+    width: 100%;
+    min-height: 622px;
+}

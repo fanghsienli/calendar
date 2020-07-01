@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "calendar-b505d",
+    "staging": "calendar-b505d"
+  }
+}

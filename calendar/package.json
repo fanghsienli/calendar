@@ -1,0 +1,42 @@
+{
+    "name": "calendar",
+    "version": "0.0.0",
+    "private": true,
+    "dependencies": {
+        "bootstrap": "4.5.0",
+        "react": "16.13.1",
+        "react-bootstrap": "1.0.1",
+        "react-dom": "16.13.1",
+        "react-scripts": "3.4.1",
+        "reactstrap": "8.5.1",
+        "styled-components": "5.1.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@types/react": "16.9.41",
+        "@types/react-dom": "16.9.8",
+        "@types/reactstrap": "8.4.3",
+        "@types/styled-components": "5.1.0",
+        "typescript": "3.9.5"
+    }
+}
